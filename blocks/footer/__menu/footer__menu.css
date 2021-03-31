@@ -1,0 +1,15 @@
+.footer__menu{
+    font-size: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    column-gap: 18px;
+}
+
+@media (max-width: 767px){
+    .footer__menu{
+        grid-template-columns: auto;
+        grid-template-rows: repeat(5, auto);
+        row-gap: 32px;
+    }
+}
