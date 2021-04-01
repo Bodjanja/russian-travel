@@ -1,6 +1,5 @@
 .intro{
     display: grid;
-    grid-template-columns: repeat(auto-fit, auto);
     width: calc(100% - 46.1%);
     margin: 92px 0 0 148px;
     box-sizing: border-box;
